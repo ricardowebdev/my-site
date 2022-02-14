@@ -1,0 +1,55 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.lh-18 {
+  line-height: 18px;
+}
+
+.fc-primary {
+  color: dodgerblue !important;
+}
+
+.fc-white {
+  color: white !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.breakline {
+  word-wrap: break-word;
+}
