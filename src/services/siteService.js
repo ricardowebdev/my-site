@@ -131,6 +131,26 @@ const site = {
                 description: ""
             }
         ],
+        portifolio: [
+            {
+                title: "Movendo rent a movie",
+                description: "Um projeto que criei durante os meus estudos de react simulando um gerenciamento de uma locadora, foi construido com react no frontend e no backend php8 e laravel com mysql<br /> <b>Usuario:</b> admin@admin.com<br /> <b>Senha:</b> 123456",
+                foto: "movendo",
+                link: "https://movendo-frontend.herokuapp.com/login"
+            },
+            {
+                title: "English Review",
+                description: "Projeto que construi por estudos de webcomponents e também para auxiliar minha sobrinha nas aulas de ingles possibilitando revisar as palavras aprendidas, feito com apenas webcomponents com JS puro ",
+                foto: "englishreview",
+                link: "https://englishreview.netlify.app"
+            },
+            {
+                title: "Meu github",
+                description: "Um app construido com angular consumindo a api publica do github filtrando usuarios mostrando suas informações, mostrando seus repositorios, seguidores e mais algumas informações<br /> <b>Meu usuario para testes:</b> ricardowebdev<br />",
+                foto: "github",
+                link: "https://ricardowebdev-github.netlify.app"
+            }            
+        ],
         footer: {
             copyright: "@ 2022 Todos os direitos reservados por: Ricardo dos Santos Souza",
             links: [
@@ -288,6 +308,26 @@ const site = {
                 description: ""
             }
         ],
+        portifolio: [
+            {
+                title: "Movendo rent a movie",
+                description: "I created this project to use my knowledge during my studies of react. It simulates the management of a movierental company, It was built with react in frontend and for backend i used php8, laravel with mysql database<br /> <b>User:</b> admin@admin.com<br /> <b>Password:</b> 123456",
+                foto: "movendo",
+                link: "https://movendo-frontend.herokuapp.com/login"
+            },
+            {
+                title: "English Review",
+                description: "This is a project that i built to study webcomponents with pure js and also to help my niece to remember the words used in our clases",
+                foto: "englishreview",
+                link: "https://englishreview.netlify.app"
+            },
+            {
+                title: "Meu github",
+                description: "A web app built with angular just as an example of an Angular project it consomes the official github api filtering users, showing their repositories and also the bio, followers and so on.<br /> <b>My user for test search for:</b> ricardowebdev<br />",
+                foto: "github",
+                link: "https://ricardowebdev-github.netlify.app"
+            }            
+        ],
         footer: {
             copyright: "@copyright 2022 All rights for: Ricardo dos Santos Souza",
             links: [
@@ -367,7 +407,7 @@ const site = {
         ],
         about: {
             title: "Sur",
-            content: "Celibataire, 31 ans, Je suis amoureux pour la technologie. Je travail avec informatique plus que 10 ans ou 7 d´entre eux comment un developper. Dans cette anée je veux voyager a l´exterior pour les pays comment Canada ou les Estats-Unis, peutetre reencontrer un tele-travail ou un travail a là-bas. Et pour finir et parle de moi J´ai beacoup de passe-temps comment regarde les films et series, joue le video, voyager fait du velo et sortir avec mes amies pour pendre de bonne temps avec eux."
+            content: "Celibataire, 31 ans, Je suis passionné de technologie. Je travaille avec l'informatique depuis que 10 ans ou 7 d´entre eux comment un developper. Dans cette année je veux voyager a l´exterior pour les pays comment Canada ou les Estats-Unis, peut-être reencontrer un tele-travail ou un travail a là-bas. Et pour finir et parle de moi J´ai beacoup de passe-temps comment regarde des films et series, jeu video, voyager fait du velo et sortir avec mes amis pour pendre de bonne temps avec eux."
         },
         competences: [
             { title: "PHP", level: 4 },
@@ -445,6 +485,26 @@ const site = {
                 description: ""
             }
         ],
+        portifolio: [
+            {
+                title: "Movendo rent a movie",
+                description: "C'est un projet que je créé pour mes études de React. Simule une entreprise de location de films, C'est créé avec react dans le frontend et php8 et laravel dans le backend sa base de donnes c'est mysql<br /> <b>Utilisateur:</b> admin@admin.com<br /> <b>Mot de passe:</b> 123456",
+                foto: "movendo",
+                link: "https://movendo-frontend.herokuapp.com/login"
+            },
+            {
+                title: "English Review",
+                description: "C'est un projet que je créé pour mes études de webcomponents et auxi pour aide ma nièce avec sa etudies d'anglais ou elle peut revoir les mots de notre classes, Utilise solement Javascript pur",
+                foto: "englishreview",
+                link: "https://englishreview.netlify.app"
+            },
+            {
+                title: "Meu github",
+                description: "Un webapp que j'ai créé avec angular et il consomme l'api public de github et montrant les informations de l'utilisateurs avec ses projets, langues les followers et un peu plus d'informations<br /> <b>Mon utilisateur:</b> ricardowebdev<br />",
+                foto: "github",
+                link: "https://ricardowebdev-github.netlify.app"
+            }            
+        ],        
         footer: {
             copyright: "@copyright 2022 Tout les droits: Ricardo dos Santos Souza",
             links: [

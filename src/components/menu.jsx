@@ -5,7 +5,7 @@ import FR from '../../src/img/FR.png';
 
 const Menu = ({ itens, onHandleLangue, currentLangue, currentPage, onHandlePage }) => {
     return (
-        <div className="container w-100 row menu end wrap item-center no-margin">
+        <div className="container row menu end wrap item-center mb-10 p-10">
             <div  className={currentLangue === 'BR' ?  'item-flag pt-3 li-active' : 'item-flag pt-3'}>
                 <img src={BR} alt="Portugues Brasil" className="flag" onClick={ () => onHandleLangue('BR')}/>
             </div>

@@ -34,6 +34,10 @@
   font-weight: 300;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
 .lh-18 {
   line-height: 18px;
 }
@@ -44,6 +48,10 @@
 
 .fc-white {
   color: white !important;
+}
+
+.fc-yellow {
+  color: yellow;
 }
 
 .bold {

@@ -11,15 +11,15 @@ class Proficience extends Component {
                         {
                             competences.map((competence, index) => (
                                 <div className="item w-30" key={`competence_${index}`}>
-                                    <div className="m-4 fs-14 mt-10 fc-primary bold"  key={`competence_${competence.title}`}>
+                                    <div className="m-4 fs-14 mt-10 bold fc-primary"  key={`competence_${competence.title}`}>
                                         { competence.title }
                                     </div>
                                     <div className="m-4 fs-12 mb-10" key={`div_star_${competence.title}`}>
                                         { 
                                             this.stars.map((star, index)  =>  (                                                
                                                 competence.level + 1 <= star ? 
-                                                    <i className="fa fa-star-o" key={`star_${competence.title}_${index}`}></i> : 
-                                                    <i className="fa fa-star" key={`star_${competence.title}_${index}`}></i>
+                                                    <i className="fa fa-star-o fc-black" key={`star_${competence.title}_${index}`}></i> : 
+                                                    <i className="fa fa-star fc-yellow" key={`star_${competence.title}_${index}`}></i>
                                             ))
                                         }
                                     </div>

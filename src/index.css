@@ -35,8 +35,9 @@ a {
 }
 
 .responsive {
-  width: 100%;
   height: auto;
+  max-height: 200px;
+  max-width: 355px;
 }
 
 hr {
@@ -46,6 +47,10 @@ hr {
 
 .w-10 {
   width: 10%;
+}
+
+.w-15 {
+  width: 15%;
 }
 
 .w-20 {
@@ -208,6 +213,54 @@ hr {
   padding-top: 10px;
 }
 
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.shadow:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.circle:hover {
+  border-radius: 50%;
+}
+
+.fc-black {
+  color: black;
+}
+
+.color-block {
+  background: white;
+  color: dodgerblue;
+}
+
+.color-block:hover {
+  color: black !important;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: dodgerblue;
+}
+
+.about-text {
+  width: 95%;
+}
+
+.custom-border:hover {
+  box-shadow: inset 0 0 0 5px #53a7ea;
+}
+
 @media only screen and (max-width: 1025px) {
   .course-card {
     width: 45% !important;
@@ -216,8 +269,14 @@ hr {
   .about-content {
     width: 90%;
   }
+
   .list-item {
     width: 45% !important;
+    justify-content: center;
+  }
+
+  .list-title {
+    width: 90% !important;
     justify-content: center;
   }
 
@@ -233,5 +292,13 @@ hr {
 @media only screen and (max-width: 683px) {
   .course-card {
     width: 90% !important;
+  }
+
+  .about-item {
+    width: auto;
+  }
+
+  .about-text {
+    width: 90%;
   }
 }
